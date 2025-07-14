@@ -92,7 +92,7 @@ Estimate soil moisture at **unsensed locations** using:
 - Distance from sensor
 - Initial center moisture
 
-[Model-2](images/model_2_prediction.png)
+[Model2](images/model_2_prediction.png)
 
 ### Result:
 - **MSE**: 0.00033  
@@ -149,15 +149,17 @@ We plan to expand the model’s capabilities and deploy it in real-world agricul
 ## 📁 Project Structure
 
 ```bash
-├── data/
-│   └── raw & cleaned datasets
-├── images/
+├── project_documents/
+│   ├── project_presentation
+│   ├── project_documentation
+│   └── project_code
+├── 📁 images/               
+│   ├── actual_vs_predicted_location_2.png
+│   ├── actual_vs_predicted_location_3.png
+│   ├── banner.png
+│   ├── model_2_prediction.png
 │   ├── moisture_data_plot.png
-│   ├── voting_regressor_predictions.png
-│   └── simulated_moisture_plot.png
-├── notebooks/
-│   └── EDA, model training, and simulation
-├── src/
-│   └── model_pipeline.py
-├── README.md
-└── requirements.txt
+│   ├── predicted_moistures_over_the_time.png
+│   ├── voting_regressor_prediction.png
+│   └── voting_regressor_predictions.png
+└── README.md
