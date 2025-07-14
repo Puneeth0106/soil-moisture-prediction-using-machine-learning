@@ -92,7 +92,7 @@ Estimate soil moisture at **unsensed locations** using:
 - Distance from sensor
 - Initial center moisture
 
-[Model2](images/model_2_prediction.png)
+![Model2](images/model_2_prediction.png)
 
 ### Result:
 - **MSE**: 0.00033  
