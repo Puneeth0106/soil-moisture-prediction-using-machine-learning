@@ -5,6 +5,8 @@ Efficient water management is a cornerstone of modern precision farming, enablin
 
 This project leverages **machine learning** to predict soil moisture in **unsensed areas** using data from **limited sensors**, offering an affordable and scalable solution for precision irrigation.
 
+![Hero_banner](images/banner.png)
+
 ---
 
 ## 🎯 Key Objectives
@@ -71,6 +73,15 @@ To further enhance prediction accuracy, we implemented a **Voting Regressor** co
 
 ![Voting Regressor Plot](images/voting_regressor_predictions.png)
 
+
+![Comparison Plot](images/actual_vs_predicted_location_2.png)
+
+
+![Comparison Plot](images/actual_vs_predicted_location_3.png)
+
+
+![Comparison Plot](images/voting_regressor_prediction.png)
+
 ---
 
 ## 🔁 Model-2: Dynamic Moisture Prediction
@@ -80,6 +91,8 @@ Estimate soil moisture at **unsensed locations** using:
 - Time
 - Distance from sensor
 - Initial center moisture
+
+[Model-2](images/model_2_prediction.png)
 
 ### Result:
 - **MSE**: 0.00033  
@@ -98,7 +111,7 @@ Estimate soil moisture at **unsensed locations** using:
 
 ### 📊 Moisture Behavior Over Time
 
-![Simulated Moisture Plot](images/simulated_moisture_plot.png)
+![Simulated Moisture Plot](images/predicted_moistures_over_the_time.png)
 
 The simulation confirms that the model captures realistic soil moisture dynamics, making it a valuable tool for field-level irrigation planning.
 
